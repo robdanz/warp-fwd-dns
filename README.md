@@ -4,12 +4,16 @@ This is a Cloudflare Worker that functions as Logpush endpoint and updates a Clo
 It utilizes Variables and Secrets in the Worker setting for the following:
 
 ACCOUNT_ID - your Cloudflare Account ID
+
 API_KEY - your Global API Key
+
 EMAIL - email used for your Global API Key
+
 ZONE_ID - the Zone ID for your domain
+
 DOMAIN_SUFFIX - the corresponding name of your ZONE_ID
 
-Logpush Configuration:
+## Logpush Configuration:
 When you set up your Logpush job, the destination is the URL of this worker that you create.
 The Logpush job will be for the Gateway HTTP dataset.  
 You only need to send DeviceID and DeviceName.
