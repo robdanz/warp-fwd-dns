@@ -17,4 +17,4 @@ DOMAIN_SUFFIX - the corresponding name of your ZONE_ID
 When you set up your Logpush job, the destination is the URL of this worker that you create.
 The Logpush job will be for the Gateway HTTP dataset.  
 You only need to send DeviceID and DeviceName.
-And you only need to send if URL = "https://<YourTeamNameGoesHere?.cloudflareaccess.com/warp" OR if the HTTPHost is "connectivity.cloudflareclient.com"
+And you only need to send if URL = "https://<YourTeamNameGoesHere>.cloudflareaccess.com/warp" OR if the HTTPHost is "connectivity.cloudflareclient.com"
